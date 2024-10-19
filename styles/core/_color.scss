@@ -1,0 +1,44 @@
+$color-root-variables: (
+    'primary-900',
+    'primary-700',
+    'primary-500',
+    'primary-300',
+);
+
+@each $color in $color-root-variables {
+  .text-#{$color} {
+    color: var(--#{$color}) !important;
+  }
+
+  .bg-#{$color} {
+    background-color: var(--#{$color}) !important;
+  }
+}
+
+.text-primary {
+  color: var(--primary-text) !important;
+}
+
+$color-map: (
+    'gray-night-900': $gray-night-900,
+    'gray-night-700': $gray-night-700,
+    'gray-night-500': $gray-night-500,
+    'gray-night-300': $gray-night-300,
+    'gray-night-200': $gray-night-200,
+    'gray-night-100': $gray-night-100,
+    'gray-night-50': $gray-night-50,
+    'green-900': $green-900,
+    'green-700': $green-700,
+    'green-500': $green-500,
+    'green-300': $green-300,
+);
+
+@each $color, $value in $color-map {
+  .text-#{$color} {
+    color: $value !important;
+  }
+
+  .bg-#{$color} {
+    background-color: $value !important;
+  }
+}

@@ -1,0 +1,9 @@
+@layer ol-kit {
+  :root {
+    --primary-900: #e59d12;
+    --primary-700: #f6a913;
+    --primary-500: #f7b636;
+    --primary-300: #f8c154;
+    --primary-text: rgba(0, 0, 0, 0.92);
+  }
+}

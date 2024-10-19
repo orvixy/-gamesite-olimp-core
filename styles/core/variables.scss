@@ -1,0 +1,58 @@
+$gray-night-900: rgba(255, 255, 255, 0.9);
+$gray-night-700: rgba(255, 255, 255, 0.7);
+$gray-night-500: rgba(255, 255, 255, 0.47);
+$gray-night-300: rgba(255, 255, 255, 0.28);
+$gray-night-200: rgba(255, 255, 255, 0.14);
+$gray-night-100: rgba(255, 255, 255, 0.07);
+$gray-night-50: rgba(255, 255, 255, 0.05);
+
+$gray-day-900: rgba(18, 18, 18, 0.9);
+$gray-day-700: rgba(18, 18, 18, 0.7);
+$gray-day-500: rgba(18, 18, 18, 0.54);
+$gray-day-300: rgba(18, 18, 18, 0.28);
+$gray-day-200: rgba(18, 18, 18, 0.15);
+$gray-day-100: rgba(18, 18, 18, 0.07);
+$gray-day-50: rgba(18, 18, 18, 0.05);
+
+$green-900: #219653;
+$green-700: #62B862;
+$green-500: #72BF72;
+$green-300: #88C988;
+
+$yellow-700: #f6a913;
+
+:root {
+  --cas-yellow-900: #e59d12;
+  --cas-yellow-700: #f6a913;
+  --cas-yellow-500: #f7b636;
+  --cas-yellow-300: #f8c154;
+
+  --cas-positive-900: #219653;
+  --cas-positive-700: #62b862;
+  --cas-positive-500: #72bf72;
+  --cas-positive-300: #88c988;
+
+  --cas-negative: #e64b41;
+
+  --cas-dark: #181818;
+  --cas-dark-900: rgba(18, 18, 18, 0.92);
+  --cas-dark-700: rgba(18, 18, 18, 0.7);
+  --cas-dark-500: rgba(18, 18, 18, 0.54);
+  --cas-dark-300: rgba(18, 18, 18, 0.25);
+  --cas-dark-200: rgba(18, 18, 18, 0.15);
+  --cas-dark-100: rgba(18, 18, 18, 0.07);
+  --cas-dark-50: rgba(18, 18, 18, 0.04);
+
+  --cas-light: #fff;
+  --cas-light-900: rgba(255, 255, 255, 0.9);
+  --cas-light-700: rgba(255, 255, 255, 0.7);
+  --cas-light-500: rgba(255, 255, 255, 0.47);
+  --cas-light-300: rgba(255, 255, 255, 0.28);
+  --cas-light-200: rgba(255, 255, 255, 0.14);
+  --cas-light-100: rgba(255, 255, 255, 0.07);
+  --cas-light-50: rgba(255, 255, 255, 0.04);
+
+  --radius-5: 5px;
+  --radius-10: 10px;
+}
+
